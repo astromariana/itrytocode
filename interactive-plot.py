@@ -16,7 +16,7 @@ from scipy import ndimage
 
 #Loading file: modify this to your needs
 subhalo_id = 476266 #from TNG50-1
-path = '/Users/mrivas/Documents/MUSE-obs/tng-subhalos/'+str(subhalo_id)+'/'+str(subhalo_id)+'_DATACUBE.fits' #directory of datacube
+path = '/Users/...' #directory of datacube
 
 #Opening FITS file and storing useul data 
 hdulist = fits.open(path)
